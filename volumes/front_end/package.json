@@ -10,7 +10,8 @@
 		"start": "npm run start:install --verbose && npm run start:app --verbose",
 		"start:install": "npm install",
 		"start:app": "webpack-dev-server --color --config webpack.dev.js",
-		"build": "webpack --config webpack.prod.js"
+		"build": "webpack --config webpack.prod.js",
+		"test": "mocha"
 	},
 	"dependencies": {
 		"@babel/polyfill": "*",
@@ -35,6 +36,7 @@
 		"html-webpack-plugin": "*",
 		"lodash": "^4.17.13",
 		"mini-css-extract-plugin": "^0.7.0",
+		"mocha": "^6.2.0",
 		"node-sass": "^4.12.0",
 		"sass-loader": "^7.1.0",
 		"style-loader": "*",
