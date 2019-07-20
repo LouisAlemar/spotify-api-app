@@ -42,6 +42,6 @@ In order to get this app up and running, you'll need to follow these steps in or
 
 		.sh/build_prod
 
-* Build production
+* Run tests
 
 		.sh/test
