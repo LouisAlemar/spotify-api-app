@@ -1,0 +1,46 @@
+{
+	"name": "test",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"repository": "https://github.com/LouisAlemar/test",
+	"author": "Louis Alemar",
+	"license": "GNU",
+	"scripts": {
+		"start": "npm run start:install --verbose && npm run start:app --verbose",
+		"start:install": "npm install",
+		"start:app": "webpack-dev-server --color --config webpack.dev.js",
+		"build": "webpack --config webpack.prod.js"
+	},
+	"dependencies": {
+		"@babel/polyfill": "*",
+		"@babel/plugin-proposal-class-properties": "*",
+		"axios": "^0.19.0",
+		"bootstrap": "^4.3.1",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-redux": "^7.1.0",
+		"reactstrap": "^8.0.0",
+		"redux": "^4.0.1",
+		"redux-saga": "^1.0.5"
+	},
+	"devDependencies": {
+		"@babel/core": "*",
+		"@babel/plugin-syntax-dynamic-import": "*",
+		"@babel/preset-env": "*",
+		"@babel/preset-react": "*",
+		"babel-loader": "*",
+		"clean-webpack-plugin": "*",
+		"css-loader": "*",
+		"html-webpack-plugin": "*",
+		"lodash": "^4.17.13",
+		"mini-css-extract-plugin": "^0.7.0",
+		"node-sass": "^4.12.0",
+		"sass-loader": "^7.1.0",
+		"style-loader": "*",
+		"webpack": "*",
+		"webpack-cli": "*",
+		"webpack-dev-server": "*",
+		"webpack-merge": "*"
+	}
+}

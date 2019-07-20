@@ -1,0 +1,1 @@
+docker logs -f test_front_end_1
