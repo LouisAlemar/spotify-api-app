@@ -1,12 +1,13 @@
 {
 	"name": "spotify-api-app",
 	"version": "0.0.1",
-	"description": "React app using Spotify API",
+	"description": "Spotify API App Back-End",
 	"main": "index.js",
 	"repository": "https://github.com/LouisAlemar/spotify-api-app",
 	"author": "Louis Alemar",
 	"license": "GNU",
 	"scripts": {
+		"start:lite": "npm run start:install --verbose && node index.js",
 		"start": "npm run start:install --verbose && npm run start:app --verbose",
 		"start:install": "npm install",
 		"start:app": "webpack-dev-server --color --config webpack.dev.js",
@@ -39,6 +40,7 @@
 		"mini-css-extract-plugin": "^0.7.0",
 		"mocha": "^6.2.0",
 		"node-sass": "^4.12.0",
+		"nodemon": "^1.19.1",
 		"sass-loader": "^7.1.0",
 		"style-loader": "*",
 		"webpack": "*",
