@@ -1,5 +1,5 @@
 /**
- * this is MyClass from front-end.
+ * this is MyClass from back-end.
  */
 export default class MyClass {
   /**

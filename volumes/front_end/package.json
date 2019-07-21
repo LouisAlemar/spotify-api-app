@@ -1,7 +1,7 @@
 {
 	"name": "spotify-api-app",
 	"version": "0.0.1",
-	"description": "React app using Spotify API",
+	"description": "Spotify API App Front-End",
 	"main": "index.js",
 	"repository": "https://github.com/LouisAlemar/spotify-api-app",
 	"author": "Louis Alemar",

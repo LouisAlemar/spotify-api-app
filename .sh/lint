@@ -1,2 +1,2 @@
 docker-compose down && \
-  NPM_SCRIPT=lint docker-compose up
+  BE_NPM_SCRIPT=lint NPM_SCRIPT=lint docker-compose up

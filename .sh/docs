@@ -1,2 +1,2 @@
 docker-compose down && \
-  NPM_SCRIPT=docs docker-compose up
+  BE_NPM_SCRIPT=docs NPM_SCRIPT=docs docker-compose up
