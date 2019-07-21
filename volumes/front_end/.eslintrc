@@ -1,0 +1,15 @@
+{
+  "env": {
+    "browser": true,
+    "jest/globals": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended"
+  ],
+  "globals": {
+    "APP_MOUNT_ID": "readonly"
+  },
+  "parser": "babel-eslint",
+  "plugins": ["jest"]
+}
