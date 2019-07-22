@@ -11,7 +11,7 @@
 		"start:install": "npm install",
 		"start:app": "webpack-dev-server --color --config webpack.dev.js",
 		"build": "webpack --config webpack.prod.js",
-		"test": "mocha",
+		"test": "mocha ./src/tests",
 		"lint": "./node_modules/.bin/eslint index.js",
 		"docs": "esdoc"
 	},
@@ -36,6 +36,7 @@
 		"@babel/preset-react": "*",
 		"babel-eslint": "^10.0.2",
 		"babel-loader": "*",
+		"chai": "^4.2.0",
 		"clean-webpack-plugin": "*",
 		"css-loader": "*",
 		"esdoc": "^1.1.0",
