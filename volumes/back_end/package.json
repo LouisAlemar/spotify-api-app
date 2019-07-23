@@ -7,9 +7,9 @@
 	"author": "Louis Alemar",
 	"license": "GNU",
 	"scripts": {
-		"start": "npm run start:install --verbose && nodemon ./src/server.js",
+		"start": "npm run start:install --verbose && nodemon index.js",
 		"start:install": "npm install",
-		"test": "mocha ./src/tests",
+		"test": "mocha --exit ./src/tests",
 		"lint": "./node_modules/.bin/eslint index.js",
 		"docs": "esdoc"
 	},

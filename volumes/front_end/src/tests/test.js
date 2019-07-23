@@ -1,8 +1,5 @@
-var assert = require('assert');
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present from FRONT END', function() {
-      assert.equal([1, 2, 3].indexOf(4), -1);
-    });
-  });
+const sum = require('../sum');
+
+test('adds 10 + 20 to equal 30', () => {
+  expect(sum(10, 20)).toBe(30);
 });
