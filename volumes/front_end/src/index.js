@@ -8,4 +8,5 @@ render(
 	<BrowserRouter>
 		<App />
 	</BrowserRouter>, 
-	document.getElementById(APP_MOUNT_ID))
+	document.getElementById(APP_MOUNT_ID)
+)
