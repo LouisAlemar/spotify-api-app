@@ -7,7 +7,7 @@ const { WEBSITE_NAME, APP_MOUNT_ID } = process.env
 
 module.exports = {
 	entry: {
-		app: './index.js'
+		app: './src/index.js'
 	},
 	module: {
 		rules: [
@@ -24,6 +24,7 @@ module.exports = {
 	new HtmlWebpackPlugin({
 		title: `${WEBSITE_NAME}`,
 		favicon: './src/assets/images/favicon.ico',
+		template: './src/index.ejs',
 		appMountId: 'react-root'
 	}),
 	new webpack.DefinePlugin({

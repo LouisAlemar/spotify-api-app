@@ -1,13 +1,11 @@
-/**
- * this is MyClass from front-end.
- */
-export default class MyClass {
-  /**
-   * @param {number} a - this is a value.
-   * @param {number} b - this is a value.
-   * @return {number} result of the sum value.
-   */
-  sum(a, b){
-    return a + b;
-  }
-}
+import React from 'react';
+import { render } from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+
+import App from './components/App';
+
+render(
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>, 
+	document.getElementById(APP_MOUNT_ID))
