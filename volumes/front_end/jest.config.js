@@ -6,4 +6,5 @@ module.exports = {
   ],
   coverageDirectory: './coverage',
   verbose: true,
+  roots: ["<rootDir>/src/tests"]
 };
