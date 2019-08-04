@@ -1,5 +1,8 @@
 version: '3.3'
 
+volumes:
+  mysqldata:
+    
 services:
   front_end:
     image: "node:alpine"
@@ -18,13 +21,19 @@ services:
     build: ./services/back_end
     working_dir: /home/node/app
     volumes:
-     - ${PWD}/volumes/back_end:/home/node/app:rw
+      - ${PWD}/volumes/back_end:/home/node/app:rw
     ports:
-     - "8080:8080"
+      - "8080:8080"
+    depends_on:
+      - db  
     command: "npm run ${BE_NPM_SCRIPT}"
   db:
     image: mysql:5.7
     restart: always
+    volumes:
+      - ./database:/tmp/database
+      - mysqldata:/var/lib/mysql
+    command: mysqld --init-file="/tmp/database/init.sql"
     environment:
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}

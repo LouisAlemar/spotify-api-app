@@ -1,0 +1,1 @@
+docker volume rm spotify-api-app_mysqldata
