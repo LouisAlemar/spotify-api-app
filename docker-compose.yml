@@ -27,6 +27,8 @@ services:
     depends_on:
       - db  
     command: "npm run ${BE_NPM_SCRIPT}"
+    environment:
+      SECRET_KEY: ${SECRET_KEY}
   db:
     image: mysql:5.7
     restart: always
