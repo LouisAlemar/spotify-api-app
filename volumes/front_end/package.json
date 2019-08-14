@@ -1,9 +1,9 @@
 {
-	"name": "spotify-api-app",
+	"name": "pianoo",
 	"version": "0.0.1",
-	"description": "Spotify API App Front-End",
+	"description": "Pianoo Front-End",
 	"main": "index.js",
-	"repository": "https://github.com/LouisAlemar/spotify-api-app",
+	"repository": "https://github.com/LouisAlemar/pianoo",
 	"author": "Louis Alemar",
 	"license": "GNU",
 	"proxy": "http://localhost:8080",

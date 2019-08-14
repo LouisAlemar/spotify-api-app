@@ -1,1 +1,1 @@
-docker logs -f spotify-api-app_db_1
+docker logs -f pianoo_db_1

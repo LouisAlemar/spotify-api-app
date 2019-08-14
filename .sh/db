@@ -1,1 +1,1 @@
-docker exec -it spotify-api-app_db_1 mysql -uroot -p
+docker exec -it pianoo_db_1 mysql -uroot -p
