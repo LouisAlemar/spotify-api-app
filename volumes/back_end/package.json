@@ -57,7 +57,7 @@
 		"eslint-plugin-react": "^7.14.2",
 		"eslint-plugin-standard": "^4.0.0",
 		"html-webpack-plugin": "*",
-		"lodash": "^4.17.13",
+		"lodash": "^4.17.19",
 		"mini-css-extract-plugin": "^0.7.0",
 		"mocha": "^6.2.0",
 		"node-sass": "^4.12.0",
